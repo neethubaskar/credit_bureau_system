@@ -25,5 +25,5 @@ Before running the project, ensure you have the following installed:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/credit-bureau-system.git
-cd credit-bureau-system
+git clone https://github.com/neethubaskar/credit_bureau_system.git
+cd credit_bureau_system
