@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Answer the Questions</title>
+</head>
+<body>
+
+    <h1>Answer the Questions</h1>
+    {% if form.as_p %}
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}  <!-- Render the form dynamically -->
+            <button type="submit">Submit</button>
+        </form>
+    {% else %}
+        <p>No questions available.</p>
+    {% endif %}
+
+</body>
+</html>
